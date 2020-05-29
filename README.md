@@ -8,7 +8,11 @@ The Daily Scientific Citation Tracker is the first bibliometric tool to record h
 
 What can we do with this level of time-granularity? At the "keyword/theme"-level, the Daily Scientific Citation Tracker can showcase which type(s) of Covid-19 research is gainign or loosing momentum over time. Also, since the database provides the date of publication for most Covid articles, it is possible to visualize a host of patterns not just in citation, but in publication as well. Generally speaking, the tool is intended for both Covid-19 researchers in their daily navigation of a thick research literature as well as information & social scientists, and historians of science studying what shall be considered one of the most pivotal moments in the recent history of science.
 
-# Link-Cov-P Dataset
+## Introducing the d-index
+
+Similarly to the h-index, the d-index --"d for day"-- indicates that an article was cited at least d time d different days. For example, a d-index of 10 indicates that an article was cited at least 10 time on 10 different days.
+
+## Link-Cov-P Dataset
 
 What Covid-19 bibliometric data are you using for this project?
 
