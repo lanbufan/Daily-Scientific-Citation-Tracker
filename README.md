@@ -78,4 +78,5 @@ At its foundation, this project is a Record Linkage initiative. Therefore, it wo
 For advisory support:
 
 * John McLevey - [UWaterloo](https://github.com/mclevey)
+* Adam Howe - Statistics Canada | UBC
 
