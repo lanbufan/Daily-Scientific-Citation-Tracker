@@ -6,11 +6,13 @@ The Daily Scientific Citation Tracker is the first bibliometric tool to record h
 
 What can we do with this level of time-granularity? At the "keyword/theme"-level, the Daily Scientific Citation Tracker can showcase which type(s) of Covid-19 research is gainign or loosing momentum over time. Also, since the database provides the date of publication for most Covid articles, it is possible to visualize a host of patterns not just in citation, but in publication as well. Generally speaking, the tool is intended for both Covid-19 researchers in their daily navigation of a thick research literature as well as information & social scientists, and historians of science studying what shall be considered one of the most pivotal moments in the recent hitory of science.
 
-# Link_-Cov-P Dataset
+# Link-Cov-P Dataset
 
 What Covid-19 bibliometric data are you using for this project?
 
 The Daily Scientific Citation Tracker build on another of my ongoing project. As a daily stream data project, Link Cov P dataset is a record linkage effort linking Cord-19, LitCovid, and WHO datasets on a daily basis. To build the Daily Tracker, we need two key variables: (1) the earliest date of publication and (2) a full references list of cited works. See documentation for methodology. To collect those two data-points, I query multiple APIs and harvest online full text pdfs online.
+
+* for more on the making of [Link-Cov-P Dataset](https://github.com/lanbufan/subFIELD.lab-Covid-19-pub-database), see my other repo.
 
 ## Getting Started
 
