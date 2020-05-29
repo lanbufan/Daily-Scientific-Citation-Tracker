@@ -1,5 +1,7 @@
 # Daily Scientific Citation Tracker
 
+does markdown have problems with _ 
+
 Covid-19 research represent one of the most intense scientific efforts in the modern history of science. In sheer volume of production in just under five months, it it the most concentrated production of scientific knowledge on a single topic in human history. Bibliometric services like Pubmed index literally hundreds of new Covid-19 articles on a daily basis. We need new tools to track the citation behavior of the covid ecosystem. All modern bibliometric record yearly citation count for scientific papers -- how many times a paper is cited yearly since the year of publication. Giving the rapid pace of Covid-19 research, what we need is a tigher level of temporal granularity. That is, we need more than the number of yearly citations, we need the number of daily citations -- how many times a paper is cited daily since the date of publication.
 
 The Daily Scientific Citation Tracker is the first bibliometric tool to record how many times an article is cited every day since the date of publication. The current beta version indicates the daily citation count at the publication-level. The current development under way will add two levels of aggregation: journal and themes.
