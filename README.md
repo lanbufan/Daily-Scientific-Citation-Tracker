@@ -50,7 +50,9 @@ A step by step series of examples that tell you how to get a development env run
 
 With Python and dependencies installed and CSV downloaded, just:
 
-* all the full path of where the CSV is located on your local machine in the config.py file.
+* Add the full path of where the CSV is located on your local machine in the config.py file.
+* Make sure the config.py, REF_match_ref_as_pub_beta.py, and the csv are in the same folder
+* On your favorite CLI, type python -i REF_match_ref_as_pub_beta.py -- please note again running this code will take some time--
 
 ## Running the tests
 
