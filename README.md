@@ -26,8 +26,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 For researchers or data scientists looking to explore the dataset, you only need to donwload:
 
-* the latest beta versions of daily tracker in CSV format.
-[daily_tracker_normalized](df_daily_tracker_beta_normalized_2020_05_28_beta.csv)
+* the latest beta versions of daily tracker in CSV format:
+[daily_tracker_normalized](df_daily_tracker_beta_normalized_2020_05_28_beta.zip)
+[daily_tracker_natural](df_daily_tracker_beta_natural_2020_05_28_beta.zip)
 
 For those interested in the "back-end" of things, or in hepling the development of this project, you will need to download:
 
