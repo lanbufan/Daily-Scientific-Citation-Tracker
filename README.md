@@ -48,8 +48,6 @@ With Python and dependencies installed and CSV downloaded, just:
 
 * all the full path of where the CSV is located on your local machine in the config.py file.
 
-End with an example of getting some data out of the system or using it for a little demo
-
 ## Running the tests
 
 Please note the current beta version of the code to generate the daily tracker is serial. The parr. of the process still needs to be implemented.
