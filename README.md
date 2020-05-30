@@ -1,15 +1,15 @@
 # Daily Scientific Citation Tracker
 
-Covid-19 research represent one of the most intense scientific efforts in the modern history of science. In sheer volume of production in just under five months, it it the most concentrated production of scientific knowledge on a single topic in human history. Bibliometric services like Pubmed index literally hundreds of new Covid-19 articles on a daily basis. We need new tools to track the citation behavior of the covid ecosystem. All modern bibliometric record yearly citation count for scientific papers -- how many times a paper is cited yearly since the year of publication. Giving the rapid pace of Covid-19 research, what we need is a tigher level of temporal granularity. That is, we need more than the number of yearly citations, we need the number of daily citations -- how many times a paper is cited daily since the date of publication.
+Covid-19 research represents one of the most intense scientific efforts in the modern history of science. In sheer volume of production in just under five months, it is the most concentrated production of scientific knowledge on a single topic in human history. Bibliometric services like Pubmed index hundreds of new Covid-19 articles daily. We need new tools to track the citation behavior of the covid ecosystem. All modern bibliometric record yearly citation count for scientific papers -- how many times a paper is cited yearly since the year of publication. Giving the rapid pace of Covid-19 research, what we need is a tighter level of temporal granularity. That is, we need more than the number of yearly citations, we need the number of daily citations -- how many times a paper is cited daily since the date of publication.
 
-The Daily Scientific Citation Tracker is the first bibliometric tool to record how many times an article is cited every day since the date of publication. The current beta version indicates the daily citation count at the publication-level. The current development under way will add two levels of aggregation: journal and themes.
+The Daily Scientific Citation Tracker is the first bibliometric tool to record how many times an article is cited every day since the date of publication. The current beta version indicates the daily citation count at the publication-level. The current development underway will add two levels of aggregation: journal and themes.
 
 
 ![Alt text](/images/DSCT_top_6.png?raw=true "dude")
 
-This tool in currently in its beta-version. It is in active development.
+This tool is currently in its beta-version. It is in active development.
 
-What can we do with this level of time-granularity? At the "keyword/theme"-level, the Daily Scientific Citation Tracker can showcase which type(s) of Covid-19 research is gainign or loosing momentum over time. Also, since the database provides the date of publication for most Covid articles, it is possible to visualize a host of patterns not just in citation, but in publication as well. Generally speaking, the tool is intended for both Covid-19 researchers in their daily navigation of a thick research literature as well as information & social scientists, and historians of science studying what shall be considered one of the most pivotal moments in the recent history of science.
+What can we do with this level of time-granularity? At the "keyword/theme"-level, the Daily Scientific Citation Tracker can showcase which type(s) of Covid-19 research is gaining or losing momentum over time. Also, since the database provides the date of publication for most Covid articles, it is possible to visualize a host of patterns not just in citations, but in publications as well. Generally speaking, the tool is intended for both Covid-19 researchers in their daily navigation of thick research literature as well as information & social scientists, and historians of science studying what shall be considered one of the most pivotal moments in the recent history of science.
 
 ## Introducing the d-index
 
@@ -19,7 +19,7 @@ Similarly to the h-index, the d-index --"d for day"-- indicates that an article 
 
 What Covid-19 bibliometric data are you using for this project?
 
-The Daily Scientific Citation Tracker build on another of my ongoing project. As a daily stream data project, Link Cov P dataset is a record linkage effort linking Cord-19, LitCovid, and WHO datasets on a daily basis. To build the Daily Tracker, we need two key variables: (1) the earliest date of publication and (2) a full references list of cited works. See documentation for methodology. To collect those two data-points, I query multiple APIs and harvest online full text pdfs online.
+The Daily Scientific Citation Tracker builds on another of my ongoing project. As a daily stream data project, Link Cov P dataset is a record linkage effort linking Cord-19, LitCovid, and WHO datasets daily. To build the Daily Tracker, we need two key variables: (1) the earliest date of publication and (2) a full reference list of cited works. See documentation for methodology. To collect those two data-points, I query multiple APIs and harvest online full text pdfs online.
 
 * for more on the making of [Link-Cov-P Dataset](https://github.com/lanbufan/subFIELD.lab-Covid-19-pub-database), see my other repo.
 
@@ -27,7 +27,7 @@ The Daily Scientific Citation Tracker build on another of my ongoing project. As
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-For researchers or data scientists looking to explore the dataset, you only need to donwload:
+For researchers or data scientists looking to explore the dataset, you only need to download:
 
 * the latest beta versions of daily tracker in CSV format:
 * **[daily_tracker_normalized](df_daily_tracker_beta_normalized_2020_05_28_beta.zip)**
@@ -45,7 +45,7 @@ For those interested in the "back-end" of the Link-Cov-P dataset, please see my 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What you need to install the software and how to install them
 
 * Python 3
 
@@ -68,7 +68,7 @@ Therefore, as of today running the code to generate the daily tracker takes betw
 
 ## Contributing
 
-Plese feel free to email [me](f.lachapelle@alumni.ubc.ca) if you have any questions or if you are interested in contributing.
+Please feel free to email [me](f.lachapelle@alumni.ubc.ca) if you have any questions or if you are interested in contributing.
 
 ## Authors
 
